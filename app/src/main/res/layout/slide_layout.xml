@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/questionsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:text="What is the question?"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/optionOne"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="270dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view3">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnblue"
+            android:padding="10dp"
+            android:text="OPTION 1"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnblue"
+            android:padding="10dp"
+            android:text="OPTION 2"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/optionOne">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnblue"
+            android:padding="10dp"
+            android:text="OPTION 3"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnblue"
+            android:padding="10dp"
+            android:text="OPTION 4"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

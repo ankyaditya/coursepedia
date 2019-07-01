@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/nameScore"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/scoreScore"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:text="Score"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bgheader" />
+
+    <TextView
+        android:id="@+id/titlepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Finish !!!"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="Total Question"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:lineSpacingExtra="6dp"
+        android:textSize="18sp"
+        android:layout_below="@id/titlepage"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="102dp"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        android:text="ok" />
+
+    <LinearLayout
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/view3">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Correct answers" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:text="Wrong answers" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:text="Score " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lL2"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/view3">+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:textSize="20sp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/btnblue"
+        android:text="Finish"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_below="@id/lL2"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "638445057258",
+    "firebase_url": "https://coursepedia-a2f3f.firebaseio.com",
+    "project_id": "coursepedia-a2f3f",
+    "storage_bucket": "coursepedia-a2f3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638445057258:android:1cbb813b0b7b08c2",
+        "android_client_info": {
+          "package_name": "com.example.ankyadityap.coursepedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638445057258-soku6svvf3tu9spf82jf4mcqftt1ekp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankyadityap.coursepedia",
+            "certificate_hash": "e10e3e8ecbac9df83c9bf0b24c1f3ca30114478b"
+          }
+        },
+        {
+          "client_id": "638445057258-icos6ovnprkatfntl897jio9rac50nc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbWamDSvTB9COYkvcawQH3QFY-W2L_uhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638445057258-icos6ovnprkatfntl897jio9rac50nc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
